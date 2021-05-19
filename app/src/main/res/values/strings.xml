@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="main_intro">Welcome to the app that sheds some light on who I am.
+        You will also be able to add some hobbies which you think I may enjoy.
+    </string>
+    <string name="add_hobbie">Add a new hobby?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        />
+    <item
+        android:id="@+id/menu_about_me"
+        android:enabled="true"
+        android:icon="@drawable/ic__person"
+        android:title="About Me"
+        />
+    <item
+        android:id="@+id/menu_family"
+        android:enabled="true"
+        android:icon="@drawable/ic_family"
+        android:title="Family"
+        />
+    <item
+        android:id="@+id/menu_hobbies"
+        android:enabled="true"
+        android:icon="@drawable/ic_hobbies"
+        android:title="Hobbies"
+        />
+
+</menu>

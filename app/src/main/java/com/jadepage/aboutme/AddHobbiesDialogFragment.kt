@@ -32,6 +32,7 @@ class AddHobbiesDialogFragment : DialogFragment() {
             val layoutInflater = LayoutInflater.from(requireContext())
             val binding = ActivityAddHobbiesBinding.inflate(layoutInflater)
 
+            builder.setMessage(R.string.add_hobby)
             builder.setView(binding.root)
                     .setPositiveButton(R.string.yes
                     ) { _: DialogInterface, _: Int ->

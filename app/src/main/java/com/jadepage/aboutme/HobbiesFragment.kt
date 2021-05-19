@@ -11,14 +11,13 @@ import androidx.recyclerview.widget.RecyclerView
 import com.jadepage.aboutme.databinding.FragmentHobbiesBinding
 import com.jadepage.aboutme.models.Hobby
 
-
 class HobbiesFragment: Fragment(R.layout.fragment_hobbies), AddHobbiesDialogFragment.OnClickListener {
-    private val TAG = "HobbyFragment"
+
     private var fragmentHobbyBinding: FragmentHobbiesBinding? = null
 
     private fun showDialog() {
         val dialog = AddHobbiesDialogFragment.create(this)
-        dialog.show(parentFragmentManager , "HobbyDialogFragment")
+        dialog.show(parentFragmentManager, "HobbiesFragment")
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -31,19 +30,9 @@ class HobbiesFragment: Fragment(R.layout.fragment_hobbies), AddHobbiesDialogFrag
         }
         binding.hobbiesList.adapter = HobbiesViewAdapter()
         binding.hobbiesList.layoutManager = LinearLayoutManager(view.context, RecyclerView.VERTICAL, false)
-        val bar = (activity as AppCompatActivity).supportActionBar
-        bar?.title = "AboutMe Hobbies"
     }
 
-    override fun onDialogPositiveClick(hobby: Hobby?) {
-        Log.d(TAG, " onDialogPositiveClick save clicked" )
-        //Nothing to do, is handled by caller
-    }
+    override fun onDialogPositiveClick(hobby: Hobby?) {}
 
-    override fun onDialogNegativeClick(hobby : Hobby?) {
-        Log.d(TAG, " onDialogNegativeClick cancel clicked")
-        //Nothing to do in this point.  Here for discussion on medium.com
-    }
-
-
+    override fun onDialogNegativeClick(hobby : Hobby?) {}
 }

@@ -1,9 +1,26 @@
 <resources>
     <string name="app_name">About Me</string>
-    <string name="main_intro">Welcome to the app that sheds some light on who I am.
+    <string name="main_intro">
+        Welcome to the app that sheds some light on who I am.
         You will also be able to add some hobbies which you think I may enjoy.
     </string>
-    <string name="add_hobbie">Add a new hobby?</string>
+    <string name="add_hobby">Add a new hobby?</string>
     <string name="yes">YES</string>
     <string name="no">NO</string>
+    <string name="about_me_part_1">
+        I\m a passionate Android Developer and lifelong learner from sunny
+        Durban South Africa. I\'m currently completing my Bachelors Degree in Information Technology.
+        I enjoy working in a team and problem solving.
+    </string>
+    <string name="about_me_part_2">When I\'m not working on cool Apps,
+        I enjoy the outdoors, spending time with family and sports.
+    </string>
+    <string name="about_java">
+        Java is a Jack Russel rescue that we got in 2020.
+        When he is not napping, he enjoys laying outside soaking up the sun or walks on the beach.
+    </string>
+    <string name="about_floki">
+        Floki, is a Jack Russel resuce that I also got in 2020.
+        When he is not taking naps, he enjoys chasing anything that moves or playing with his ball all day.
+    </string>
 </resources>
